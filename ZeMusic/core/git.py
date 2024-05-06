@@ -68,4 +68,4 @@ def git():
         except GitCommandError:
             repo.git.reset("--hard", "FETCH_HEAD")
         install_req("pip3 install --no-cache-dir -r requirements.txt")
-        LOGGER(__name__).info(f"جاري رفع تحديثات سورس الملك...")
+        LOGGER(__name__).info(f" 𝐬𝐨𝐮𝐫𝐜𝐞 𝐚𝐥𝐢𝐜𝐞جاري رفع تحديثات سورس ...")
